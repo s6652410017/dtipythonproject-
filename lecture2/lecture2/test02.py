@@ -1,0 +1,12 @@
+print('welcome to "SAU"', end='')
+print('welcome to "DTI"', end="")
+print("""""""""""""""""""")
+orint('welcome to \'SAU\'')
+orint("welcome to \"DTI\"")
+print("""""""""""""""""""")
+print(4546)
+print(4546,6545)
+print(True)
+print(False)
+print(15 * 10 + 2) #expression นิพจน์
+print(True or False and False)

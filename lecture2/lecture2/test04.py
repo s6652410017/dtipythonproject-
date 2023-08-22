@@ -1,0 +1,20 @@
+#ริบค่า คือ หยุดให้ User ป้อนทางแป้นพิมพ์
+#varible (ตัวแปร)
+
+#สภารแปลงข้อมูล (casting/type conversion) -> str ( ) , int( ) , float( )
+stu_id = input('ป้อน student id;')
+stu_name = input('ป้อน student name;')
+stu_birth_year = int(input('ป้อน student birth year;'))
+print("..................")
+print(f"ยินดีต้อนรับสู่ {stu_id} {stu_name} สู่ SAU")
+print(f"คุณเกิดปี {stu_birth_year} แปลว่าคุณอายุ {2023 - stu_birth_year} ปี")
+print("ใฃ้ , ---------------------------")
+print("ยินดีต้อนรับสู่",stu_id, stu_name,"สู่ SAU")
+print("คุณเกิดปี",stu_birth_year,"แปลว่าคุณอายุ ",2023 - int(stu_birth_year)),"ปี")
+print("ใฃ้ + ---------------------------")
+print("ยินดีต้อนรับสู่ "+stu_id+" "+stu_name+"สู่ SAU")
+print("คุณเกิดปี "+stu_birth_year+" แปลความหมาย "+(2023 - int(stu_birth_year))+" ปี" )
+print("ใฃ้เมธอต format ---------------------------")
+print("ยินดีต้อนรับ () () สู่ SAU",format(stu_id,stu_name))
+print("คุณเกิดปี () แปลว่าคุณอายุ () ปี",format(stu_birth_year, 2023 - int(stu_birth_year)))
+      
